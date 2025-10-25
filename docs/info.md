@@ -53,11 +53,12 @@ on a display.
 
 Example:
 
-Counter | Value	Selected Input	| 7-Segment Display
-  00	  |         IN0	          |         “0”
-  01	  |         IN1	          |         “1”
-  10	  |         IN2	          |         “2”
-  11	  |         IN3	          |         “3”
+|		Counter	|			Value	Selected Input		| 7-Segment Display |
+|----------|-------------------------|-------------------|
+|    00    |           IN0           |        "0"        |
+|    01    |           IN1           |        "1"        |
+|    10    |           IN2           |        "2"        |
+|    11    |           IN3           |        "3"        |
 
 
 #Enable Function
