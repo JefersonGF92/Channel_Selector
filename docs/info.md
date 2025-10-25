@@ -12,17 +12,18 @@ You can also include images in this folder and reference them in the markdown. E
 This design is a 4-to-1 multiplexer (MUX) with some unique, built-in logic and 
 display features.
 It takes four input signals and produces one main output, but unlike a traditional MUX, it doesn’t require external address selection lines.
+ 
+|		Inputs		|			Outputs			|
+|-------------------|---------------------------|
+|		clk			|			MUX_out			|
+|		rst			|	'a'-7-segment display	|
+|		INO			|	'b'-7-segment display	|
+|		IN1			|	'c'-7-segment display	|
+|		IN2			|	'd'-7-segment display	|
+|		IN3			|	'e'-7-segment display	|
+|		EN			|	'f'-7-segment display	|
+|					|	'g'-7-segment display	|
 
-Inputs  |           Outputs	       | 
-________|__________________________|
-  clk	  |           MUX_out	       |         
-  rst	  |    'a'-7-segment display |        
-  IN0	  |    'b'-7-segment display |        
-  IN1	  |    'c'-7-segment display |        
-  IN2	  |    'd'-7-segment display |         
-  IN3	  |    'e'-7-segment display |         
-  EN	  |    'f'-7-segment display |         
-	      |    'g'-7-segment display |    
 
 ## How to test
 
