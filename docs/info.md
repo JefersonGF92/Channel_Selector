@@ -65,9 +65,9 @@ Example:
 
 The design also includes an Enable (EN) pin:
 
-When EN = 1 (HIGH) → the counter CLK, MUX output, and 7-segment display are active.
+When EN = 1 (HIGH) → the MUX output, and the 7-segment display are active.
 
-When EN = 0 (LOW) → all outputs and CLK are disabled. Counter outputs preserved.
+When EN = 0 (LOW) → all outputs are disabled. Counter outputs preserved.
 
 #Reset Function
 
