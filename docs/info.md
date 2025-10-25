@@ -22,7 +22,7 @@ ________|__________________________|
   IN2	  |    'd'-7-segment display |         
   IN3	  |    'e'-7-segment display |         
   EN	  |    'f'-7-segment display |         
-  - 	  |    'g'-7-segment display |    
+	      |    'g'-7-segment display |    
 
 ## How to test
 
